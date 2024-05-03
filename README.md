@@ -83,3 +83,21 @@
     - Similarly, get the moving border component. Copy paste as instructed.
 
 ## Video 4: Card Section and Intro to Typescript:
+    - 3 sections in this. Title, cards and button.
+    - Typescript:
+      - We need to get the data from a JSON file.
+      - We have an array named courses in which data objects are stored.
+      - To do so, we created a new data type named Courses using typescript. Why?
+      - Check the FeaturedCourses.tsx file.
+      - Then through simple JS we get the data from the data.
+```tsx
+interface Course {
+  id: number,
+    title: string,
+    slug: string,
+    description: string,
+    price: number,
+    instructor: string,
+    isFeatured: boolean,
+}
+```
