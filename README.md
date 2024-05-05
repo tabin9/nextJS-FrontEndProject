@@ -91,6 +91,7 @@
       - Check the FeaturedCourses.tsx file.
       - Then through simple JS we get the data from the data.
 ```tsx
+// create own data type:
 interface Course {
   id: number,
     title: string,
@@ -100,4 +101,22 @@ interface Course {
     instructor: string,
     isFeatured: boolean,
 }
+```
+
+## Video 5: Testimonial cards and Grid Background:
+    - Get the infinite moving cards from Accertinity.
+    - For Grid / Dot Background in Accertinity: 
+      - We see there's no import, it's a Tailwind property. 
+      - Need to import stuff into the tailwind config file.
+      - See the code below on how to use this background.
+
+```tsx
+// for grid --> The /[0.2] is the opacity of the grid / dots
+<div classname="dark:bg-black dark:bg-grid-white/[0.2]">
+  Content
+</div>
+// for dot
+<div classname="dark:bg-black dark:bg-dot-white/[0.2]">
+  Content
+</div>
 ```
