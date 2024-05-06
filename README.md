@@ -6,7 +6,7 @@
     applications. Next.js simplifies the development of React applications by
     providing various features and optimizations out of the box.
 
-## Video 1: Introduction, App Structure and Routing Basics
+## Section 1: Introduction, App Structure and Routing Basics
 
 ### Creating Next App:
 
@@ -54,7 +54,7 @@
       we can add more folder inside of 'tab' folder and add page and layout inside of
       it.
 
-## Video 2: Navbar
+## Section 2: Navbar
 
 ### Components:
 
@@ -70,7 +70,7 @@
       ourselves. Like for example, we want Home and Contact Us with no children, only
       have a drop down menu when there are children.
 
-## Video 3: Hero Section
+## Section 3: Hero Section
 
     - Challenges:
       Moving Border and Spotlight effect in background.
@@ -82,7 +82,7 @@
       Then its basic copy paste as instructed.
     - Similarly, get the moving border component. Copy paste as instructed.
 
-## Video 4: Card Section and Intro to Typescript:
+## Section 4: Card Section and Intro to Typescript:
     - 3 sections in this. Title, cards and button.
     - Typescript:
       - We need to get the data from a JSON file.
@@ -103,7 +103,7 @@ interface Course {
 }
 ```
 
-## Video 5: Testimonial cards and Grid Background:
+## Section 5: Testimonial cards and Grid Background:
     - Get the infinite moving cards from Accertinity.
     - For Grid / Dot Background in Accertinity: 
       - We see there's no import, it's a Tailwind property. 
@@ -120,3 +120,7 @@ interface Course {
   Content
 </div>
 ```
+
+## Library Used => Accertinity
+
+## More Libraries to explore: ShadCN and DaisyUI
