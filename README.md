@@ -1,3 +1,7 @@
+# Visit here:
+<a href="https://music-academy-gamma.vercel.app/" target="_blank">Visit this project website</a>
+
+
 # Intro to Next JS:
 
     Next.js is a popular open-source framework built on top of React.js for building
